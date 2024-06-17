@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:14-alpine
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=user_action_history
+    ports:
+      - "5433:5432"
+
+volumes:
+  postgres_data:
