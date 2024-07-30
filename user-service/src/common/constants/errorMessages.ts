@@ -3,7 +3,7 @@ const errorMessages = {
     invalidRequest: 'Invalid request',
     unAuthenticated: 'Please, Log in.',
     forbidden: 'Forbidden',
-    userExists: 'User already exists',
+    userExists: 'User already exists.',
     fileNotFound: 'File not found.',
 
 }
